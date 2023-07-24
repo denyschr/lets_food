@@ -1,0 +1,40 @@
+.service{
+	&__top{
+		max-width: 615px;
+		margin: 0 auto 32px;
+		text-align: center;
+	}
+	&__title{
+		margin: 0 0 26px;
+		color: var(--black);
+	}
+	&__text{
+		margin: 0;
+	}
+}
+
+.service__list{
+	padding: 0 76px;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 150px;
+	&-item{
+		text-align: center;
+	}
+	&-img{
+		margin-bottom: 24px;
+	}
+	&-title{
+		@extend %rp-semibold;
+		margin: 0 0 15px;
+		color: var(--black);
+		font-size: 28px;
+	}
+	&-text{
+		@extend %rp-medium;
+		margin: 0;
+		color: var(--textlight, rgba(29, 29, 29, 0.70));
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,85 @@
+.testimonies{
+	&__inner{
+		display: flex;
+		align-items: center;
+		padding-left: max(15px, calc((100% - 1200px) / 2));
+	}
+	&__img{
+		flex-shrink: 0;
+		margin-right: 100px;
+	}
+	&__title{
+		margin: 0 0 32px;
+		color: var(--black);
+	}
+	&__content{
+		width: calc(100% - 431px - 100px);
+	}
+}
+
+.testimonies__slider{
+	position: relative;
+	padding-bottom: 32px;
+	overflow: hidden;
+}
+
+.swiper-slide{
+	max-width: 452px;
+	border-radius: 10px;
+	background-color: var(--whitesmoke);
+}
+.swiper-content{
+	padding: 28px 20px;
+}
+.swiper-content__top{
+	display: flex;
+	align-items: center;
+	margin-bottom: 24px;
+}
+.swiper-img{
+	border-radius: 30px;
+	margin-right: 19px;
+}
+.swiper-title{
+	position: relative;
+	padding-bottom: 35px;
+	margin: 0;
+	@extend %rp-medium;
+	color: var(--black);
+	font-size: 20px;
+	&::after{
+		content: '';
+		position: absolute;
+		background-image: url('../images/svg/rating.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		width: 136px;
+		height: 24px;
+		left: -2px;
+		bottom: 0;
+	}
+}
+.swiper-text{
+	margin: 0;
+}
+
+.testimonies__content .testimonies__slider .swiper-pagination{
+	bottom: 0;
+	width: unset;
+	margin-left: 175px;
+}
+
+.testimonies__content .testimonies__slider .swiper-pagination .swiper-pagination-bullet{
+	background-color: var(--light);
+	opacity: 0.9;
+	margin: 0 14px 0 0;
+}
+
+.testimonies__content .testimonies__slider .swiper-pagination .swiper-pagination-bullet:last-child{
+	margin: 0;
+}
+
+.testimonies__content .testimonies__slider .swiper-pagination .swiper-pagination-bullet-active{
+	background-color: var(--primary);
+}

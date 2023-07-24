@@ -1,0 +1,25 @@
+%rp-regular{
+	font-family: 'Readex Pro', sans-serif;
+	font-weight: 400;
+}
+%rp-medium{
+	font-family: 'Readex Pro', sans-serif;
+	font-weight: 500;
+}
+%rp-semibold{
+	font-family: 'Readex Pro', sans-serif;
+	font-weight: 600;
+}
+%rp-bold{
+	font-family: 'Readex Pro', sans-serif;
+	font-weight: 700;
+}
+
+:root{
+	--light: #FFF9EA;
+	--white: #FFF;
+	--textlight: rgba(29, 29, 29, 0.70);
+	--primary: #FFCB45;
+	--black: #1D1D1D;
+	--whitesmoke: #F1F1F1;
+}
