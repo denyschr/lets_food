@@ -1,4 +1,4 @@
-# [Catering website](https://dchornoivanenko.github.io/lets_food/)
+# [Catering website](https://denyschr.github.io/lets_food/)
 ## What I used for creating the website:
 - HTML
 - CSS
